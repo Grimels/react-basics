@@ -3,10 +3,6 @@ import List from './List';
 import TextTrimmer from './TextTrimmer';
 import options from '../utils/heroes';
 
-const descriptionOnClick = event => {
-	console.log('hello');
-};
-
 const containerTag = 'div';
 const heroRender = element => {
 	return (
